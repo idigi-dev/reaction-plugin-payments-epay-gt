@@ -1,0 +1,18 @@
+"Data for a ePay-gt payment"
+type EPayGtPaymentData {
+  auditNumber:Int!
+  referenceNumber:String!
+  authorizationNumber:String!
+  responseCode:String!,
+  email:String!,
+  pan:String!,
+  cardName:String!,
+  amount:Float!
+}
+
+extend union PaymentData = EPayGtPaymentData
+
+extend enum PaymentMethodName {
+  "ePay-gt payment method"
+  epay_gt_card
+}
