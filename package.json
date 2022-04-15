@@ -19,11 +19,6 @@
     "test:file": "jest --no-cache --watch --coverage=false"
   },
   "keywords": [],
-  "author": {
-    "name": "Twowheelstogo",
-    "email": "soporte@twowheelstogo.com",
-    "url": "https://twowheelstogo.com"
-  },
   "license": "ISC",
   "dependencies": {
     "@reactioncommerce/api-utils": "^1.16.9",
